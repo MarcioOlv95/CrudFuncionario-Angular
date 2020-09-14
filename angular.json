@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "crud-funcionarios:build"
+            "browserTarget": "crud-funcionarios:build",
+            "ssl": true
           },
           "configurations": {
             "production": {
